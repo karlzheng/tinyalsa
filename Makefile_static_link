@@ -1,0 +1,22 @@
+CFLAGS = -fPIC -Wall -static -s 
+INC = include
+COMMON_C_FILE = mixer.c pcm.c
+LIB = libtinyalsa.so
+#CROSS_COMPILE =
+
+all: tinyplay tinycap tinymix tinypcminfo
+
+tinyplay:tinyplay.c $(COMMON_C_FILE)
+	$(CROSS_COMPILE)gcc  $(CFLAGS) -I$(INC) $(COMMON_C_FILE) tinyplay.c -L. -o tinyplay
+
+tinycap:tinycap.c $(COMMON_C_FILE)
+	$(CROSS_COMPILE)gcc  $(CFLAGS) -I$(INC) $(COMMON_C_FILE) tinycap.c -L. -o tinycap
+
+tinymix:tinymix.c $(COMMON_C_FILE)
+	$(CROSS_COMPILE)gcc  $(CFLAGS) -I$(INC) $(COMMON_C_FILE) tinymix.c -L. -o tinymix
+
+tinypcminfo:tinypcminfo.c $(COMMON_C_FILE)
+	$(CROSS_COMPILE)gcc  $(CFLAGS) -I$(INC) $(COMMON_C_FILE) tinypcminfo.c -L. -o tinypcminfo
+
+clean:
+	-rm tinyplay tinycap tinymix tinypcminfo
