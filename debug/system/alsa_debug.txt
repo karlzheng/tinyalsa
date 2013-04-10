@@ -1,0 +1,4 @@
+mount -t ext4 /dev/mmcblk0p2 /mnt
+mkdir /dev/snd;ln -s /dev/pcmC0D0p /dev/snd/pcmC0D0p
+ln -s /dev/controlC0 /dev/snd/controlC0
+tinyplay /mnt/zz.wav 

@@ -1,0 +1,256 @@
+Number of controls: 254
+ctl	type	num	name                                     value
+0	INT	1	AIF1DAC1 EQ1 Volume                      12
+1	INT	1	AIF1DAC1 EQ2 Volume                      12
+2	INT	1	AIF1DAC1 EQ3 Volume                      12
+3	INT	1	AIF1DAC1 EQ4 Volume                      12
+4	INT	1	AIF1DAC1 EQ5 Volume                      12
+5	INT	1	AIF1DAC2 EQ1 Volume                      12
+6	INT	1	AIF1DAC2 EQ2 Volume                      12
+7	INT	1	AIF1DAC2 EQ3 Volume                      12
+8	INT	1	AIF1DAC2 EQ4 Volume                      12
+9	INT	1	AIF1DAC2 EQ5 Volume                      12
+10	INT	1	AIF2 EQ1 Volume                          12
+11	INT	1	AIF2 EQ2 Volume                          12
+12	INT	1	AIF2 EQ3 Volume                          12
+13	INT	1	AIF2 EQ4 Volume                          12
+14	INT	1	AIF2 EQ5 Volume                          12
+15	BOOL	1	MIC Bias1 Switch                         On
+16	BOOL	1	MIC Bias2 Switch                         Off
+17	BOOL	1	AIF1 Loopback                            Off
+18	BOOL	1	AIF2 Loopback                            Off
+19	ENUM	1	Playback_path Selection                  Headphone  Nomal
+20	ENUM	1	Capture_path Selection                   None
+21	ENUM	1	Noise Suppress Mode                      On
+22	INT	1	IN1L Volume                              27
+23	BOOL	1	IN1L Switch                              On
+24	BOOL	1	IN1L ZC Switch                           Off
+25	INT	1	IN1R Volume                              27
+26	BOOL	1	IN1R Switch                              On
+27	BOOL	1	IN1R ZC Switch                           Off
+28	INT	1	IN2L Volume                              13
+29	BOOL	1	IN2L Switch                              Off
+30	BOOL	1	IN2L ZC Switch                           Off
+31	INT	1	IN2R Volume                              11
+32	BOOL	1	IN2R Switch                              Off
+33	BOOL	1	IN2R ZC Switch                           Off
+34	INT	1	MIXINL IN2L Volume                       1
+35	INT	1	MIXINL IN1L Volume                       0
+36	INT	1	MIXINL Output Record Volume              0
+37	INT	1	MIXINL IN1LP Volume                      0
+38	INT	1	MIXINL Direct Voice Volume               0
+39	INT	1	MIXINR IN2R Volume                       0
+40	INT	1	MIXINR IN1R Volume                       0
+41	INT	1	MIXINR Output Record Volume              0
+42	INT	1	MIXINR IN1RP Volume                      0
+43	INT	1	MIXINR Direct Voice Volume               0
+44	INT	1	Left Output Mixer IN2RN Volume           7
+45	INT	1	Left Output Mixer IN2LN Volume           7
+46	INT	1	Left Output Mixer IN2LP Volume           7
+47	INT	1	Left Output Mixer IN1L Volume            7
+48	INT	1	Left Output Mixer IN1R Volume            7
+49	INT	1	Left Output Mixer Right Input Volume     7
+50	INT	1	Left Output Mixer Left Input Volume      7
+51	INT	1	Left Output Mixer DAC Volume             7
+52	INT	1	Right Output Mixer IN2LN Volume          7
+53	INT	1	Right Output Mixer IN2RN Volume          7
+54	INT	1	Right Output Mixer IN1L Volume           7
+55	INT	1	Right Output Mixer IN1R Volume           7
+56	INT	1	Right Output Mixer IN2RP Volume          7
+57	INT	1	Right Output Mixer Left Input Volume     7
+58	INT	1	Right Output Mixer Right Input Volume    7
+59	INT	1	Right Output Mixer DAC Volume            7
+60	INT	2	Output Volume                            61 61
+61	BOOL	2	Output Switch                            On On
+62	BOOL	2	Output ZC Switch                         On On
+63	BOOL	1	Earpiece Switch                          Off
+64	INT	1	Earpiece Volume                          1
+65	INT	1	SPKL Input Volume                        1
+66	INT	1	SPKL IN1LP Volume                        1
+67	INT	1	SPKL Output Volume                       1
+68	INT	1	SPKR Input Volume                        1
+69	INT	1	SPKR IN1RP Volume                        1
+70	INT	1	SPKR Output Volume                       1
+71	INT	2	Speaker Mixer Volume                     3 3
+72	INT	2	Speaker Volume                           59 59
+73	BOOL	2	Speaker Switch                           Off Off
+74	BOOL	2	Speaker ZC Switch                        Off Off
+75	INT	2	Speaker Boost Volume                     0 0
+76	ENUM	1	Speaker Reference                        SPKVDD/2
+77	ENUM	1	Speaker Mode                             Class D
+78	INT	2	Headphone Volume                         39 39
+79	BOOL	2	Headphone Switch                         On On
+80	BOOL	2	Headphone ZC Switch                      On On
+81	BOOL	1	LINEOUT1N Switch                         Off
+82	BOOL	1	LINEOUT1P Switch                         Off
+83	INT	1	LINEOUT1 Volume                          1
+84	BOOL	1	LINEOUT2N Switch                         Off
+85	BOOL	1	LINEOUT2P Switch                         Off
+86	INT	1	LINEOUT2 Volume                          1
+87	INT	2	AIF1ADC1 Volume                          96 96
+88	INT	2	AIF1ADC2 Volume                          96 96
+89	INT	2	AIF2ADC Volume                           96 96
+90	ENUM	1	DAC OSR                                  Low Power
+91	ENUM	1	ADC OSR                                  High Performance
+92	ENUM	1	AIF1ADCL Source                          Left
+93	ENUM	1	AIF1ADCR Source                          Right
+94	ENUM	1	AIF2ADCL Source                          Left
+95	ENUM	1	AIF2ADCR Source                          Right
+96	ENUM	1	AIF1DACL Source                          Left
+97	ENUM	1	AIF1DACR Source                          Right
+98	ENUM	1	AIF2DACL Source                          Left
+99	ENUM	1	AIF2DACR Source                          Right
+100	INT	2	AIF1DAC1 Volume                          96 96
+101	INT	2	AIF1DAC2 Volume                          96 96
+102	INT	2	AIF2DAC Volume                           96 96
+103	INT	1	AIF1 Boost Volume                        0
+104	INT	1	AIF2 Boost Volume                        0
+105	BOOL	1	AIF1DAC1 EQ Switch                       On
+106	BOOL	1	AIF1DAC2 EQ Switch                       Off
+107	BOOL	1	AIF2 EQ Switch                           Off
+108	BOOL	1	AIF1DAC1 DRC Switch                      Off
+109	BOOL	1	AIF1ADC1L DRC Switch                     Off
+110	BOOL	1	AIF1ADC1R DRC Switch                     Off
+111	BOOL	1	AIF1DAC2 DRC Switch                      Off
+112	BOOL	1	AIF1ADC2L DRC Switch                     Off
+113	BOOL	1	AIF1ADC2R DRC Switch                     Off
+114	BOOL	1	AIF2DAC DRC Switch                       Off
+115	BOOL	1	AIF2ADCL DRC Switch                      Off
+116	BOOL	1	AIF2ADCR DRC Switch                      Off
+117	INT	1	DAC1 Right Sidetone Volume               0
+118	INT	1	DAC1 Left Sidetone Volume                0
+119	INT	1	DAC2 Right Sidetone Volume               12
+120	INT	1	DAC2 Left Sidetone Volume                12
+121	ENUM	1	Sidetone HPF Mux                         2.7kHz
+122	BOOL	1	Sidetone HPF Switch                      Off
+123	ENUM	1	AIF1ADC1 HPF Mode                        HiFi
+124	BOOL	2	AIF1ADC1 HPF Switch                      Off Off
+125	ENUM	1	AIF1ADC2 HPF Mode                        HiFi
+126	BOOL	2	AIF1ADC2 HPF Switch                      Off Off
+127	ENUM	1	AIF2ADC HPF Mode                         Voice 1
+128	BOOL	2	AIF2ADC HPF Switch                       On On
+129	INT	2	DAC1 Volume                              96 96
+130	BOOL	2	DAC1 Switch                              On On
+131	INT	2	DAC2 Volume                              96 96
+132	BOOL	2	DAC2 Switch                              On On
+133	INT	1	SPKL DAC2 Volume                         1
+134	INT	1	SPKL DAC1 Volume                         1
+135	INT	1	SPKR DAC2 Volume                         1
+136	INT	1	SPKR DAC1 Volume                         1
+137	INT	1	AIF1DAC1 3D Stereo Volume                0
+138	BOOL	1	AIF1DAC1 3D Stereo Switch                Off
+139	INT	1	AIF1DAC2 3D Stereo Volume                0
+140	BOOL	1	AIF1DAC2 3D Stereo Switch                Off
+141	INT	1	AIF2DAC 3D Stereo Volume                 0
+142	BOOL	1	AIF2DAC 3D Stereo Switch                 Off
+143	INT	1	AIF3 Boost Volume                        2
+144	BOOL	1	AIF1DAC1 MBC Switch                      Off
+145	BOOL	1	AIF1DAC2 MBC Switch                      Off
+146	BOOL	1	AIF2DAC MBC Switch                       Off
+147	BOOL	1	AIF1DAC1 VSS Switch                      Off
+148	BOOL	1	AIF1DAC2 VSS Switch                      Off
+149	BOOL	1	AIF2DAC VSS Switch                       Off
+150	BOOL	1	AIF1DAC1 HPF1 Switch                     Off
+151	BOOL	1	AIF1DAC2 HPF1 Switch                     Off
+152	BOOL	1	AIF2DAC HPF1 Switch                      Off
+153	BOOL	1	AIF1DAC1 HPF2 Switch                     Off
+154	BOOL	1	AIF1DAC2 HPF2 Switch                     Off
+155	BOOL	1	AIF2DAC HPF2 Switch                      Off
+156	BOOL	1	AIF1DAC1 Enhanced EQ Switch              Off
+157	BOOL	1	AIF1DAC2 Enhanced EQ Switch              Off
+158	BOOL	1	AIF2DAC Enhanced EQ Switch               Off
+159	ENUM	1	MBC Mode                                 playback spk normal
+160	ENUM	1	ADCR Mux                                 ADC
+161	ENUM	1	ADCL Mux                                 ADC
+162	ENUM	1	AIF3ADC Mux                              AIF1ADCDAT
+163	ENUM	1	AIF2DACR Mux                             AIF2
+164	ENUM	1	AIF2DACL Mux                             AIF2
+165	ENUM	1	Mono PCM Out Mux                         None
+166	BOOL	1	SPKR DAC2 Switch                         Off
+167	BOOL	1	SPKR Input Switch                        Off
+168	BOOL	1	SPKR IN1RP Switch                        Off
+169	BOOL	1	SPKR Output Switch                       Off
+170	BOOL	1	SPKR DAC1 Switch                         On
+171	BOOL	1	SPKL DAC2 Switch                         Off
+172	BOOL	1	SPKL Input Switch                        Off
+173	BOOL	1	SPKL IN1LP Switch                        Off
+174	BOOL	1	SPKL Output Switch                       Off
+175	BOOL	1	SPKL DAC1 Switch                         On
+176	ENUM	1	Right Headphone Mux                      DAC
+177	ENUM	1	Left Headphone Mux                       DAC
+178	ENUM	1	AIF2ADC Mux                              AIF2ADCDAT
+179	ENUM	1	AIF2DAC Mux                              AIF2DACDAT
+180	ENUM	1	AIF1DAC Mux                              AIF1DACDAT
+181	BOOL	1	DAC1R Mixer Right Sidetone Switch        Off
+182	BOOL	1	DAC1R Mixer Left Sidetone Switch         Off
+183	BOOL	1	DAC1R Mixer AIF2 Switch                  On
+184	BOOL	1	DAC1R Mixer AIF1.2 Switch                Off
+185	BOOL	1	DAC1R Mixer AIF1.1 Switch                On
+186	BOOL	1	DAC1L Mixer Right Sidetone Switch        Off
+187	BOOL	1	DAC1L Mixer Left Sidetone Switch         Off
+188	BOOL	1	DAC1L Mixer AIF2 Switch                  On
+189	BOOL	1	DAC1L Mixer AIF1.2 Switch                Off
+190	BOOL	1	DAC1L Mixer AIF1.1 Switch                On
+191	ENUM	1	Right Sidetone                           ADC/DMIC1
+192	ENUM	1	Left Sidetone                            ADC/DMIC1
+193	BOOL	1	AIF2DAC2R Mixer Right Sidetone Switch    On
+194	BOOL	1	AIF2DAC2R Mixer Left Sidetone Switch     Off
+195	BOOL	1	AIF2DAC2R Mixer AIF2 Switch              Off
+196	BOOL	1	AIF2DAC2R Mixer AIF1.2 Switch            Off
+197	BOOL	1	AIF2DAC2R Mixer AIF1.1 Switch            Off
+198	BOOL	1	AIF2DAC2L Mixer Right Sidetone Switch    Off
+199	BOOL	1	AIF2DAC2L Mixer Left Sidetone Switch     On
+200	BOOL	1	AIF2DAC2L Mixer AIF2 Switch              Off
+201	BOOL	1	AIF2DAC2L Mixer AIF1.2 Switch            Off
+202	BOOL	1	AIF2DAC2L Mixer AIF1.1 Switch            Off
+203	BOOL	1	AIF1ADC2R Mixer DMIC Switch              Off
+204	BOOL	1	AIF1ADC2R Mixer AIF2 Switch              Off
+205	BOOL	1	AIF1ADC2L Mixer DMIC Switch              Off
+206	BOOL	1	AIF1ADC2L Mixer AIF2 Switch              Off
+207	BOOL	1	AIF1ADC1R Mixer ADC/DMIC Switch          Off
+208	BOOL	1	AIF1ADC1R Mixer AIF2 Switch              Off
+209	BOOL	1	AIF1ADC1L Mixer ADC/DMIC Switch          Off
+210	BOOL	1	AIF1ADC1L Mixer AIF2 Switch              Off
+211	BOOL	1	LINEOUT2P Mixer Right Output Switch      Off
+212	BOOL	1	LINEOUT2N Mixer Left Output Switch       Off
+213	BOOL	1	LINEOUT2N Mixer Right Output Switch      Off
+214	BOOL	1	LINEOUT1P Mixer Left Output Switch       Off
+215	BOOL	1	LINEOUT1N Mixer Left Output Switch       Off
+216	BOOL	1	LINEOUT1N Mixer Right Output Switch      Off
+217	BOOL	1	SPKR Boost Direct Voice Switch           Off
+218	BOOL	1	SPKR Boost SPKL Switch                   Off
+219	BOOL	1	SPKR Boost SPKR Switch                   Off
+220	BOOL	1	SPKL Boost Direct Voice Switch           Off
+221	BOOL	1	SPKL Boost SPKL Switch                   On
+222	BOOL	1	SPKL Boost SPKR Switch                   On
+223	BOOL	1	Earpiece Mixer Direct Voice Switch       Off
+224	BOOL	1	Earpiece Mixer Left Output Switch        On
+225	BOOL	1	Earpiece Mixer Right Output Switch       On
+226	BOOL	1	Right Output Mixer Left Input Switch     Off
+227	BOOL	1	Right Output Mixer Right Input Switch    Off
+228	BOOL	1	Right Output Mixer IN2LN Switch          Off
+229	BOOL	1	Right Output Mixer IN2RN Switch          Off
+230	BOOL	1	Right Output Mixer IN1L Switch           Off
+231	BOOL	1	Right Output Mixer IN1R Switch           Off
+232	BOOL	1	Right Output Mixer IN2RP Switch          Off
+233	BOOL	1	Right Output Mixer DAC Switch            On
+234	BOOL	1	Left Output Mixer Right Input Switch     Off
+235	BOOL	1	Left Output Mixer Left Input Switch      Off
+236	BOOL	1	Left Output Mixer IN2RN Switch           Off
+237	BOOL	1	Left Output Mixer IN2LN Switch           Off
+238	BOOL	1	Left Output Mixer IN2LP Switch           Off
+239	BOOL	1	Left Output Mixer IN1R Switch            Off
+240	BOOL	1	Left Output Mixer IN1L Switch            Off
+241	BOOL	1	Left Output Mixer DAC Switch             On
+242	BOOL	1	MIXINR IN2R Switch                       Off
+243	BOOL	1	MIXINR IN1R Switch                       On
+244	BOOL	1	MIXINL IN2L Switch                       Off
+245	BOOL	1	MIXINL IN1L Switch                       On
+246	BOOL	1	IN2R PGA IN2RP Switch                    Off
+247	BOOL	1	IN2R PGA IN2RN Switch                    Off
+248	BOOL	1	IN2L PGA IN2LP Switch                    On
+249	BOOL	1	IN2L PGA IN2LN Switch                    On
+250	BOOL	1	IN1R PGA IN1RP Switch                    On
+251	BOOL	1	IN1R PGA IN1RN Switch                    On
+252	BOOL	1	IN1L PGA IN1LP Switch                    On
+253	BOOL	1	IN1L PGA IN1LN Switch                    On

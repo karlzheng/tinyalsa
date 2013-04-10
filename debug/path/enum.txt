@@ -1,0 +1,33 @@
+19	ENUM	1	Playback_path Selection                  Headphone  Nomal
+20	ENUM	1	Capture_path Selection                   None
+21	ENUM	1	Noise Suppress Mode                      On
+76	ENUM	1	Speaker Reference                        SPKVDD/2
+77	ENUM	1	Speaker Mode                             Class D
+90	ENUM	1	DAC OSR                                  Low Power
+91	ENUM	1	ADC OSR                                  High Performance
+92	ENUM	1	AIF1ADCL Source                          Left
+93	ENUM	1	AIF1ADCR Source                          Right
+94	ENUM	1	AIF2ADCL Source                          Left
+95	ENUM	1	AIF2ADCR Source                          Right
+96	ENUM	1	AIF1DACL Source                          Left
+97	ENUM	1	AIF1DACR Source                          Right
+98	ENUM	1	AIF2DACL Source                          Left
+99	ENUM	1	AIF2DACR Source                          Right
+121	ENUM	1	Sidetone HPF Mux                         2.7kHz
+123	ENUM	1	AIF1ADC1 HPF Mode                        HiFi
+125	ENUM	1	AIF1ADC2 HPF Mode                        HiFi
+127	ENUM	1	AIF2ADC HPF Mode                         Voice 1
+159	ENUM	1	MBC Mode                                 playback spk normal
+160	ENUM	1	ADCR Mux                                 ADC
+161	ENUM	1	ADCL Mux                                 ADC
+162	ENUM	1	AIF3ADC Mux                              AIF1ADCDAT
+163	ENUM	1	AIF2DACR Mux                             AIF2
+164	ENUM	1	AIF2DACL Mux                             AIF2
+165	ENUM	1	Mono PCM Out Mux                         None
+176	ENUM	1	Right Headphone Mux                      DAC
+177	ENUM	1	Left Headphone Mux                       DAC
+178	ENUM	1	AIF2ADC Mux                              AIF2ADCDAT
+179	ENUM	1	AIF2DAC Mux                              AIF2DACDAT
+180	ENUM	1	AIF1DAC Mux                              AIF1DACDAT
+191	ENUM	1	Right Sidetone                           ADC/DMIC1
+192	ENUM	1	Left Sidetone                            ADC/DMIC1
