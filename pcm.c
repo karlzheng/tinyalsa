@@ -456,7 +456,7 @@ struct pcm_params *pcm_params_get(unsigned int card, unsigned int device,
 
     fd = open(fn, O_RDWR);
     if (fd < 0) {
-        fprintf(stderr, "cannot open device '%s'\n", fn);
+        fprintf(stderr, "cannot open device '%s', errno:%d\n", fn, errno);
         goto err_open;
     }
 
